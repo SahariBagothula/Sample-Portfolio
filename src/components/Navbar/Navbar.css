@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-link .name{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 100vw;
+    background-color: var(--primary_background_color);
+    padding: 0 2rem;
+    position: fixed;
+    top: 0;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.firstname {
+    color: var(--orange_color);
+}
+
+.lastname {
+    color: var(--dark_grey_color);
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--black_color);
+    margin: 1rem;
+    font-size: 1.15rem;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid var(--hover_color);
+    padding-bottom: 0.5rem;
+}
+
+.theme-icon {
+    border: none;
+    color: var(--dark_grey_color);
+    background: none;
+    font-size: 1.25rem;
+}
+
+.theme-icon .sun-icon{
+    color: var(--dark_grey_color);
+}

@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --primary_background_color: #f1f5f9;
+  --black_color: #000;
+  --moon_icon_color: rgb(114, 201, 235);
+  --sun_icon_color: rgb(255, 251, 0);
+  --orange_color: #f97316;
+  --dark_grey_color: #0f172a;
+  --skyblue-color: #7dd3fc;
+  --light_grey_color: #f3f4f6;
+  --hover_color: #000;
+  --main_background_color: #fff;
+  --text_color: #000;
+  --blog_background_color: #fff;
+}
+
+[data-theme = 'true'] {
+  --primary_background_color: #222222;
+  --black_color: #fff;
+  --moon_icon_color: #fff;
+  --sun_icon_color: rgb(255, 251, 0);
+  --orange_color: #2caeba;
+  --dark_grey_color: #fff;
+  --skyblue-color: #222222;
+  --light_grey_color: #f3f4f6;
+  --hover_color: #fff;
+  --main_background_color: #17170d;
+  --text_color: #bff8fd;
+  --blog_background_color: #222222;
+}
+
+section {
+  scroll-margin-top: 6rem; /* Adjust this value to match the height of your navbar */
+}

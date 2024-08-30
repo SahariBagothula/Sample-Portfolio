@@ -1,0 +1,58 @@
+.project-details-section{
+    margin: 4rem auto auto auto;
+    background-color: var(--main_background_color);
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-details-heading{
+    font-size: 3rem;
+    padding: 2rem;
+    color: var(--black_color);
+}
+
+.project-details-image{
+    object-fit: cover;
+    height: 30rem;
+    width: 60rem;
+    margin: 1rem;
+}
+
+.project-details-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: 3px solid var(--orange_color);
+    border-radius: 2rem;
+    padding: 0.75rem;
+    color: var(--black_color);
+}
+
+.project-details-technologies{
+    margin: 1rem;
+}
+
+.project-details-technologies-heading{
+    font-size: 1.5rem;
+    color: var(--black_color);
+}
+
+.project-details-techList{
+    padding: 1rem;
+}
+
+.project-details-tech{
+    padding: 0.25rem;
+    list-style-type:none;
+    color: var(--orange_color);
+}
+
+.project-details-description{
+    font-size: 1.25rem;
+    color: var(--text_color);
+    margin: 2rem auto;
+}
